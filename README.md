@@ -54,7 +54,7 @@ Open a pull request with **base** `main` and **compare** `part-3-context-ingesti
 
 This branch adds two configuration files alongside a code change:
 
-- `.gitar/review/instructions.md` defines a naming convention for order references (the `ORDER-000001` format).
+- `.gitar/review/instructions.md` defines a naming convention for order references (the `ORDER-XX0001` format).
 - `.gitar/rules/order-api-change-check.md` requests API documentation updates whenever `app.py` changes.
 
 The code change adds a `reference` field that violates the instruction's naming convention.
